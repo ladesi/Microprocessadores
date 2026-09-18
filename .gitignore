@@ -49,3 +49,8 @@ nbactions.xml
 nbbuild/
 nbdist/
 nbproject/Makefile-*
+
+# proteus
+*.pdsbak
+*.workspace
+*copy*

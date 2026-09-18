@@ -15,3 +15,5 @@ Códigos relacionados às atividades práticas da disciplina de Microprocessador
 |     ---       |    ---    |  --- |
 | 01 | Familiarização e E/S | [Link para acesso](https://github.com/ladesi/microprocessadores/tree/main/pratica01)
 | 02 | Circuito Multiplexador | [Link para acesso](https://github.com/ladesi/microprocessadores/tree/main/pratica02)
+| 03 | Introdução à Linguagem C | [Link para acesso](https://github.com/ladesi/microprocessadores/tree/main/pratica03)
+| 04 | Interrupções | [Link para acesso](https://github.com/ladesi/microprocessadores/tree/main/pratica04)
