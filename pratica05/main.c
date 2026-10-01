@@ -99,7 +99,7 @@ void init_tmr0(){
     // O TIMER0 deve ter a seguinte configuração:
     // Modo de 8 bits.
     // Seleção de clock interno.
-    // Estouro a cada 1ms.
+    // Estouro a cada 5ms.
 
     // TODO: Apresente o cálculo realizado para o tempo de aproximadamente 5ms.
 
@@ -139,9 +139,10 @@ void __interrupt() myIsr(void){
         // Ao pressionar o botão, a buttom_flag permanece em nível alto.
         if(buttom_flag) count0++;
 
-        // Se o contador chega a 1000, aproximadamente em 1s,
+        // Se o contador chega a 200, aproximadamente em 1s,
         // o led controlado é alternado.
-        if(count0 == 1000){
+        // OBS: Pode acontecer, devido o botão mecânico, o efeito bounce.
+        if(count0 == 200){
             count0 = 0;
             led_control = ~led_control;
             // Como sinalização, o LED ativo oscila por 500ms.
