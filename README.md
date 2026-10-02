@@ -18,4 +18,5 @@ Códigos relacionados às atividades práticas da disciplina de Microprocessador
 | 03 | Introdução à Linguagem C | [Link para acesso](https://github.com/ladesi/microprocessadores/tree/main/pratica03)
 | 04 | Interrupções | [Link para acesso](https://github.com/ladesi/microprocessadores/tree/main/pratica04)
 | 05 | Temporizadores | [Link para acesso](https://github.com/ladesi/microprocessadores/tree/main/pratica05)
+| 06 | Módulo PWM | [Link para acesso](https://github.com/ladesi/microprocessadores/tree/main/pratica06)
 
