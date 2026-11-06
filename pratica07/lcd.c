@@ -7,7 +7,7 @@
 
 // DEFINES
 #ifndef LCD_nbits
-#define LCD_nbits 4
+#define LCD_nbits 8
 #endif
 
 #ifndef LCD_dat
@@ -63,13 +63,13 @@ void lcd_en_pulse(void){
 void lcd_send_nibble(unsigned char data){
 // nibble menos significativo
 
-    if (data&0x01) LCD4 = 1;
+    if (data & 0x01) LCD4 = 1;
     else LCD4 = 0;
-    if (data&0x02) LCD5 = 1;
+    if (data & 0x02) LCD5 = 1;
     else LCD5 = 0;
-    if (data&0x04) LCD6 = 1;
+    if (data & 0x04) LCD6 = 1;
     else LCD6 = 0;
-    if (data&0x08) LCD7 = 1;
+    if (data & 0x08) LCD7 = 1;
     else LCD7 = 0;
 
     lcd_en_pulse();
